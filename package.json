@@ -17,6 +17,11 @@
         "node": ">=0.10.x",
         "npm": ">=1.4.x"
     },
+    "scripts": {
+        "start": "gulp",
+        "test": "gulp test",
+        "postinstall": "./node_modules/dolphin-cli/bin/dolphin-cli-postinstall"
+    },
     "dependencies": {
         "dolphin-angularjs-package": "~0.0.1",
         "dolphin-asset-manager-package": "~0.0.2",
@@ -26,6 +31,7 @@
         "dolphin-html-render-package": "~0.0.2",
         "dolphin-lib": "~0.0.6",
         "dolphin-logger": "~0.0.1",
+        "dolphin-cli": "~0.1.0",
         "dolphin-mongoose-package": "~0.0.1",
         "dolphin-server-web-package": "~0.0.2"
     },
