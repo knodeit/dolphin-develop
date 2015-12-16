@@ -1,6 +1,4 @@
 {
     "name": "test",
-    "version": "0.0.1",
-    "preferGlobal": true,
-    "description": "A test module"
+    "version": "0.0.1"
 }
