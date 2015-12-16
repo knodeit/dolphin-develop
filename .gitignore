@@ -47,4 +47,4 @@ logs/
 # --------------------
 .bower-*/
 bower_components
-public
+./public
