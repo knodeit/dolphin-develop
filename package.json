@@ -32,11 +32,11 @@
         "dolphin-lib": "~0.0.6",
         "dolphin-logger": "~0.0.1",
         "dolphin-cli": "~0.1.0",
-        "dolphin-mongoose-package": "~0.0.1",
-        "dolphin-server-web-package": "~0.0.2"
+        "dolphin-mongoose-package": "~0.1.0",
+        "dolphin-server-web-package": "~0.0.2",
+        "dolphin-acl-web-package":"~0.0.1"
     },
     "devDependencies": {
-        "csslint-stylish": "0.0.4",
         "gulp-csslint": "~0.2.0",
         "gulp-jshint": "~2.0.0",
         "gulp-lesshint": "~1.0.0",
