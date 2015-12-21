@@ -15,3 +15,15 @@ To run project:
 `gulp`
 
 on localhost:3000 port you can see "Test" module
+
+
+### Demonized
+
+```bash
+
+./knodeit.sh start 
+
+#stop, restart, status
+```
+
+In the file `ecosystem.json` you can configure your project. All information about this file you can fine [PM2](http://pm2.keymetrics.io)
