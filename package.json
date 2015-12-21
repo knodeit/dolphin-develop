@@ -34,7 +34,7 @@
         "dolphin-cli": "~0.1.0",
         "dolphin-mongoose-package": "~0.2.0",
         "dolphin-server-web-package": "~0.1.0",
-        "dolphin-acl-web-package":"~0.0.1"
+        "dolphin-acl-web-package":"~0.1.0"
     },
     "devDependencies": {
         "gulp-csslint": "~0.2.0",
