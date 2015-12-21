@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "Dolphin",
+            "script": "dolphin.js",
+            "exec_interpreter": "node",
+            "error_file": "./logs/pm2-err.log",
+            "out_file": "./logs/pm2-out.log",
+            "pid_file": "./dolphin.pid"
+        }
+    ]
+}
