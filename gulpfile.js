@@ -2,9 +2,9 @@ var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 
 var paths = {
-    js: ['packages/**/*.js'],
-    css: ['packages/**/*.css'],
-    less: ['packages/**/*.less']
+    js: ['modules/**/*.js'],
+    css: ['modules/**/*.css'],
+    less: ['modules/**/*.less']
 };
 
 gulp.task('jshint', function () {
@@ -35,8 +35,8 @@ gulp.task('nodemon', function () {
     plugins.nodemon({
         script: 'dolphin.js',
         ext: 'js html css less',
-        ignore: ['./node_modules/**/*', './packages/**/node_modules/**/*'],
-        watch: './packages',
+        ignore: ['./node_modules/**/*', './modules/**/node_modules/**/*'],
+        watch: './modules',
         verbose: false
     });
 });
