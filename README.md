@@ -1,7 +1,7 @@
 ### Develop area to build new package
 
 ### Installation
-```npm install gulp -g```
+```npm install gulp pm2 -g```
 
 ```npm install dolphin-cli -g```
 
