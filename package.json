@@ -23,18 +23,20 @@
         "postinstall": "./node_modules/dolphin-cli/bin/dolphin-cli-postinstall"
     },
     "dependencies": {
-        "dolphin-angularjs-module": "~0.0.1",
-        "dolphin-asset-manager-module": "~0.0.2",
+        "dolphin-acl-web-module": "~0.5.4",
+        "dolphin-angularjs-module": "~0.2.4",
+        "dolphin-asset-manager-module": "~0.1.2",
+        "dolphin-cli": "~0.2.0",
         "dolphin-core": "~0.0.1",
         "dolphin-core-modules": "~0.1.0",
         "dolphin-core-utils": "~0.3.0",
         "dolphin-html-render-module": "~0.0.2",
-        "dolphin-lib": "~0.0.6",
+        "dolphin-js-exporter-module": "~0.0.1",
+        "dolphin-lib": "~0.1.1",
         "dolphin-logger": "~0.0.1",
-        "dolphin-cli": "~0.2.0",
         "dolphin-mongoose-module": "~0.2.0",
         "dolphin-server-web-module": "~0.1.0",
-        "dolphin-acl-web-module":"~0.2.0"
+        "lodash": "~3.10.1"
     },
     "devDependencies": {
         "gulp-csslint": "~0.2.0",
